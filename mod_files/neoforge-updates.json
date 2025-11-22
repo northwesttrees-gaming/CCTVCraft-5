@@ -3,8 +3,13 @@
   "1.21.1": {
     "5.1.1": "- Fixed block breaking speeds\n- Fixed Link USB typo\n- Oxidized Copper Jammers can now be scraped properly\n- All blocks require a stone tool or better now\n- Fixed issue where it was possible to turn off the camera when in camera mode."
   },
+  "1.21.4": {
+    "5.2.0": "- Port from CCTVCraft 5.1.1 to NeoForge 1.21.4.\n- Cleaned up the block model paths to make it easier for future porting."
+  },
   "promos": {
     "1.21.1-latest": "5.1.1",
-    "1.21.1-recommended": "5.1.1"
+    "1.21.1-recommended": "5.1.1",
+    "1.21.4-latest": "5.2.0",
+    "1.21.4-recommended": "5.2.0"
   }
 }
