@@ -1,0 +1,44 @@
+name: CCTVCraft 5 - Translate
+description: Translate something in the mod.
+assignees: "NorthWestTreesgaming"
+title: "[Translate] <title>"
+labels: [New, Bug]
+body:
+- type: dropdown
+  id: Language
+  attributes:
+    label: Select what language the translation is for.
+    options:
+      - English (en_us)
+      - Arabic (ar_sa)
+      - Dutch (nl_nl)
+      - French (fr_fr)
+      - German (de_de)
+      - Portuguese (pt_pt)
+      - Spanish (es_es)
+      - Other (??_??)
+  validations:
+    required: true
+- type: input
+  attributes:
+    label: Language Tag
+    description: "If language is OTHER fill out the language tag for the language eg: en_us"
+    placeholder: "Required: If Other (??_??)"
+  validations:
+    required: false
+- type: textarea
+  attributes:
+    label: Language Attachment
+    description: |
+      Drag and drop a valid language JSON file into this text area to attach it.
+    placeholder: Required
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Notes
+    description: |
+      List any notes you like to leave us here.
+    placeholder: Optional
+  validations:
+    required: false
