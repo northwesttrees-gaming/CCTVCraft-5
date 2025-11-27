@@ -2,7 +2,7 @@ name: CCTVCraft 5 - Translate
 description: Translate something in the mod.
 assignees: "NorthWestTreesgaming"
 title: "[Translate] <title>"
-labels: [New, Bug]
+labels: [New, Translation]
 body:
 - type: dropdown
   id: Language
