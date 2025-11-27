@@ -1,27 +1,46 @@
-name: CCTVCraft 5 - Bug Report
-description: Report an issue with the modification!
+name: Bug Report
+description: Report a bug or issue!
+assignees: "NorthWestTreesgaming"
 title: "[Bug] <title>"
 labels: [New, Bug]
 body:
 - type: textarea
   attributes:
-    label: Issue Description
-    description: Describe the issue what happens and what steps we can take to trigger the issue.
-    placeholder: Your issue description.
-  validations:
-    required: true
-- type: dropdown
-  attributes:
-    label: Versions
-    options:
-      - "CCTVCraft 5 (1.1.0) / NeoForge (1.21.1)"
-      - "CCTVCraft 5 (1.0.0) / Forge (1.20.1)"
+    label: Bug/Issue Description
+    description: |
+      - *(REQUIRED)*
+      Describe the issue of the bug here. 
+      *Example:* Time does not update every 15 minutes.
+    placeholder: Describe the issue of the bug here.
   validations:
     required: true
 - type: textarea
   attributes:
-    label: Crash Report
-    description: Provide a crash file from your game or server.
-    placeholder: Only required if there was a crash.
+    label: Mod Information
+    description: |
+      - *(REQUIRED)*
+      List the ADDON and BUILD here.
+      *Example:* CCTVCraft Reborn 5.3.1
+    placeholder: List the BUILD here.
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Game Information
+    description: |
+      - *(REQUIRED)*
+      List the game information for NeoForge here.
+      *Example:* NeoForge 1.21.8
+    placeholder: List the game information for NeoForge here.
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Crash Report and Attachments
+    description: |
+      - *(OPTIONAL)*
+      If the game crashes provide the crash report here.
+      You can also drop images to show visual issues.
+    placeholder: Drag and drop the files here.
   validations:
     required: false
