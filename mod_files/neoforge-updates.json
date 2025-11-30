@@ -6,10 +6,16 @@
   "1.21.4": {
     "5.2.0": "- Port from CCTVCraft 5.1.1 to NeoForge 1.21.4.\n- Cleaned up the block model paths to make it easier for future porting."
   },
+  "1.21.8": {
+    "5.3.0": "- Ported from CCTVCraft 5.2.0 to NeoForge 1.21.8\n- Updated camera, monitor, and jammer block models and textures.\n- Added description to lockpicks.\n- Added description to the iron pinlock.\n- Added localization for Arabic, Dutch, French, German, Portuguese, and Spanish.\n- Bottom half of secure doors now handle permissions when breaking.\n- Some blocks now require proper permission ownership/membership to break.\n- Fixed some block right-click actions when holding a block.\n- Fixed new line description issue in some item tooltips.",
+    "5.3.1": "- Fixed secure hatch and secure doors not breaking properly when in creative mode."
+  },
   "promos": {
     "1.21.1-latest": "5.1.1",
     "1.21.1-recommended": "5.1.1",
     "1.21.4-latest": "5.2.0",
-    "1.21.4-recommended": "5.2.0"
+    "1.21.4-recommended": "5.2.0",
+    "1.21.8-latest": "5.3.1",
+    "1.21.8-recommended": "5.3.1"
   }
 }
